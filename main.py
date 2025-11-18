@@ -77,3 +77,6 @@ for p in problems:
 df = pd.DataFrame(results)
 print("\nComparison Table:")
 print(df[["Problem","Variables","Constraints","Our Obj","SciPy Obj","Our Time","SciPy Time"]])
+
+#save to csv
+df.to_csv("comparison_results.csv", index=False)
