@@ -1,0 +1,7 @@
+Problem,Variables,Constraints,Our Obj,Our Time,Our Iter,SciPy Obj,SciPy Time,SciPy Iter
+Small Regular LP,4,2,-7.5,0.0036652,N/A,-7.5,0.0123171,0
+Medium LP,5,3,-30.0,0.0006792,N/A,-30.0,0.0038599,3
+Large LP,12,6,-88.94117647058823,0.0004102,N/A,-88.94117647058823,0.0017079,7
+Infeasible LP,2,2,original problem is infeasible,0.0,N/A,,0.0009234,Fail
+Unbounded LP,3,2,Singular matrix,0.0,N/A,,0.0008383,Fail
+Degenerate LP,3,2,Singular matrix,0.0,N/A,-2.0,0.0009234,0
